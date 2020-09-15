@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(231, 231, 231);
+    font-family: 'Dancing Script', cursive;
+}
+
+.title{
+    color: blue;
+    text-align: center;
+    
+}
+
+
+.box{
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 400px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.email, .password{
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    width: 300px;
+}
+
+.signup{
+    background: rgb(0, 92, 128);
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.signup:hover{
+    background: black;
+}
+
+.login{
+    background: green;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.login:hover{
+    background: black;
+}
